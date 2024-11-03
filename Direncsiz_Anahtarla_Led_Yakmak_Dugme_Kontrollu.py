@@ -18,7 +18,7 @@ try:
             LedDurum = not LedDurum
             GPIO.output(cikisPin,LedDurum)
         dugmeDurumEski=dugmeDurum
-
+        sleep(bekleme)
 except KeyboardInterrupt:
     GPIO.cleanup()
     print("Başarılı bir şekilde program kapatıldı")

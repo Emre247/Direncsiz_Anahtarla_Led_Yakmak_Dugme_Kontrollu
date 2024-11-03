@@ -2,7 +2,7 @@ from time import sleep
 import RPi.GPIO as GPIO
 GPIO.cleanup()
 bekleme=1
-girisPin=40
+girisPin=32
 cikisPin=38
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(cikisPin,GPIO.OUT)

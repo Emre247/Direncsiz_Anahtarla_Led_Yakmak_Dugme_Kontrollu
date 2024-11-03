@@ -12,7 +12,7 @@ dugmeDurum=0
 dugmeDurumEski=1
 try:
     while True:
-        dugmeDurum=GPIO.input(cikisPin)
+        dugmeDurum=GPIO.input(girisPin)
         print(dugmeDurum)
         if dugmeDurum==1 and dugmeDurumEski==0:
             LedDurum = not LedDurum
